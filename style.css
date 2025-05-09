@@ -1,4 +1,123 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-color: rgb(61, 53, 64);
+}
+ .augsejaLinija {
+  background-color: rgb(147, 127, 154);
+   border: 10px solid #61506b;
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+
+}
+
+#PMteksts {
+  color: rgb(193, 168,202);
+  font-size: 20px;
+  font-family: modern antiqua;
+   width: 30%;
+  margin-left: 250px;
+  text-align: right;
+  margin-right:250px;
+
+ 
+
+}
+
+.SakBild {
+ width: 200px;
+  height: auto;
+  margin: 5px;
+}
+
+#parmums{
+  color: rgb(193, 168,202);
+  font-size: 23px;
+  font-family: modern antiqua;
+  text-align: left;
+  margin: 0px 200px 0px 200px;
+}
+
+.jaunumi{
+  color: rgb(0, 0, 0);
+  background-color: rgb(193, 168,202);
+    border: 30px solid #61506b;
+  font-size: 20px;
+  font-family: modern antiqua;
+  text-align: left;
+  margin-top: 20px;
+  padding: 50px;
+
+}
+
+#Jvirsraksts{
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-family: modern antiqua;
+  text-align: center;
+  margin: 0px 200px 0px 200px
+}
+
+.bildesTT{
+  display: flex;
+ flex-wrap: wrap;
+  padding: 40px;
+  justify-content: center;
+  margin: 20px 20px 20px ;
+}
+.pirma-sadala{
+ display: flex;
+  justify-content: flex-start;
+  align-items:flex-start ;
+  gap: 10px;
+ margin: 10px 10px;
+}
+
+.aug-linija2{
+  background-color: rgb(147, 127, 154);
+   border: 10px solid #61506b;
+   display: flex;
+   justify-content: space-around;
+   padding: 10px;
+}
+
+#galerija-uzraksts{
+  background-color: rgb(193, 168, 202);
+  color: rgb(0,0,0);
+  text-align: center;
+  margin: 20px 100px 0px 100px;;
+}
+
+#visas-galerijas-bildes{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  margin: 20px 300px 20px 300px;
+}
+
+#pieteikums{
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+
+
+#registracija{
+  background-color: rgb(97, 80, 107);
+  padding: 5px;
+  margin: 0px 0px 20px 700px;
+}
+
+#reg{
+  background-color: rgb(147, 127, 154);
+  color: rgb(255, 255, 255);
+  text-align: right;
+  margin-left: 200px;
+  
+}
+
+#copyright{
+  background-color: rgb(97, 80, 107);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 30px;
 }
